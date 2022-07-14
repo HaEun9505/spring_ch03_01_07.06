@@ -3,16 +3,16 @@ package com.haeun.test;
 public class MainClass {
 
    public static void main(String[] args) {
-      // TODO Auto-generated method stub
-
-      MyCalculator myCal = new MyCalculator(); // ¼±¾ğ
       
-      myCal.setNum1(20);
+
+      MyCalculator myCal = new MyCalculator();
+      
+      myCal.setNum1(20);	//ì´ˆê¸°í™”
       myCal.setNum2(10);
       
 /*
       Calculator cal1 = new Calculator(); 
-      myCal.setCal(cal1); // ÃÊ±âÈ­
+      myCal.setCal(cal1); //myCalê°ì²´.í•¨ìˆ˜(calê°ì²´)
 */      
       myCal.setCal(new Calculator());
       

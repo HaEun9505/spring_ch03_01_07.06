@@ -1,27 +1,27 @@
 package com.haeun.test;
 
 public class Calculation {
-	private int num1;	//¸â¹öº¯¼ö
+	private int num1;	//ë©¤ë²„ë³€ìˆ˜
 	private int num2;
 	
-	public void add() {	//¸Ş¼Òµå
+	public void add() {	//ë©”ì†Œë“œ
 		int result = num1 + num2;
-		System.out.println("µÎ ¼öÀÇ ÇÕ: " + result);
+		System.out.println("ë‘ ìˆ˜ì˜ í•©: " + result);
 	}
 	
 	public void sub() {
 		int result = num1 - num2;
-		System.out.println("µÎ ¼öÀÇ Â÷: " + result);
+		System.out.println("ë‘ ìˆ˜ì˜ ì°¨: " + result);
 	}
 	
 	public void mul() {
 		int result = num1 * num2;
-		System.out.println("µÎ ¼öÀÇ °ö: " + result);
+		System.out.println("ë‘ ìˆ˜ì˜ ê³±: " + result);
 	}
 	
 	public void div() {
 		int result = num1 / num2;
-		System.out.println("µÎ ¼ö ³ª´©±â: " + result);
+		System.out.println("ë‘ ìˆ˜ ë‚˜ëˆ„ê¸°: " + result);
 	}
 	
 	public int getNum1() {
